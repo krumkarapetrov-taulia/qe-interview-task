@@ -1,0 +1,23 @@
+@import '~taulia-ui/src/lib/styles';
+
+// Delete the CSS below, this is only for demo purposes
+
+.app {
+  max-width: 800px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-container {
+  flex-direction: row;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    margin-right: 20px;
+  }
+}
+
+@import './pages/HelloWorld/HelloWorld.scss';

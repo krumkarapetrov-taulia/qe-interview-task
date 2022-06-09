@@ -1,0 +1,11 @@
+{
+  "helloWorld": {
+    "helloName": "こんにちは{{ name }}",
+    "title": "こんにちは世界！"
+  },
+  "notFound": {
+    "backHome": "ホームに戻る",
+    "cantFind": "お探しのページが見つからないようです。",
+    "error": "エラー（404）"
+  }
+}

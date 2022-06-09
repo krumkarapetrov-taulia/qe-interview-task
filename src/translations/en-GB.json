@@ -1,0 +1,6 @@
+{
+  "helloWorld": {
+    "helloName": "'Ello {{ name }}",
+    "title": "'Ello guv'nor"
+  }
+}

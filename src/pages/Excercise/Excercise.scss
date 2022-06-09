@@ -1,0 +1,14 @@
+.excercise {
+    display: flex;
+    flex-direction: column;
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .employee {
+        display: flex;
+        .submit {
+            align-self: flex-end;
+        }
+    }
+}

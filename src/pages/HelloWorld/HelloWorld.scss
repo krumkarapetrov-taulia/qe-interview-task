@@ -1,0 +1,13 @@
+.greetings {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  .tau-field-label {
+    display: none;
+  }
+
+  .tau-field {
+    width: 400px;
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "helloWorld": {
+    "helloName": "你好{{ name }}",
+    "title": "你好，世界！"
+  },
+  "notFound": {
+    "backHome": "返回主页",
+    "cantFind": "似乎找不到您要查找的页面。",
+    "error": "错误 (404)"
+  }
+}

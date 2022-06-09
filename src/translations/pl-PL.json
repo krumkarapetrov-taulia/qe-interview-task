@@ -1,0 +1,11 @@
+{
+  "helloWorld": {
+    "helloName": "Cześć {{ name }}",
+    "title": "Witaj świecie!"
+  },
+  "notFound": {
+    "backHome": "Powrót do strony głównej",
+    "cantFind": "Nie możemy znaleźć strony, której szukasz.",
+    "error": "Błąd (404)"
+  }
+}

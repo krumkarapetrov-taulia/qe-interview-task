@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "plugins": ["prettier"],
+  "globals": {
+    "DEBUG": "readonly",
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-wrap-multilines": ["error", { "assignment": false }],
+    "no-unused-vars": "warn"
+  }
+}

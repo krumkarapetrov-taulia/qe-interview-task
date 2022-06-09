@@ -1,0 +1,11 @@
+{
+  "helloWorld": {
+    "helloName": "Ahoj {{ name }}",
+    "title": "Ahoj světe!"
+  },
+  "notFound": {
+    "backHome": "Zpět na domovskou stránku",
+    "cantFind": "Nedaří se nám najít stránku, kterou hledáte.",
+    "error": "Chyba (404)"
+  }
+}

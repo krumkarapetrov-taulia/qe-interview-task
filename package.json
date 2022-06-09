@@ -1,0 +1,65 @@
+{
+  "name": "qe-interview-task",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "QE interview task with Cypress",
+  "repository": "https://github.com/krasimiryanchev-taulia/qe-interview-task",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.17.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.52.3",
+    "superagent": "^7.1.6",
+    "taulia-ui": "^5.5.1"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cypress": "^10.0.3",
+    "cypress-file-upload": "^5.0.8",
+    "@cypress/react": "^5.12.5",
+    "@cypress/webpack-dev-server": "^1.8.4",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "postcss-cli": "^9.1.0",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "coverage": "yarn test --coverage --watchAll=false && yarn report",
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "postbuild": "postcss --use postcss-custom-properties --replace build/**/*.css",
+    "report": "cd coverage/lcov-report && open index.html",
+    "start": "BROWSER=none PORT=7401 WDS_SOCKET_PORT=7401 react-scripts start",
+    "test": "react-scripts test",
+    "testOnce": "CI=true react-scripts test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:integration:debug": "DEBUG=cypress:* cypress open --env configFile=integration"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

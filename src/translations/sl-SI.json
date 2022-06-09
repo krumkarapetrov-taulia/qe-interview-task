@@ -1,0 +1,11 @@
+{
+  "helloWorld": {
+    "helloName": "Pozdravljen {{ name }}",
+    "title": "Pozdravljen, svet!"
+  },
+  "notFound": {
+    "backHome": "Nazaj domov",
+    "cantFind": "Strani, ki jo iščete, nismo našli.",
+    "error": "Napaka (404)"
+  }
+}
