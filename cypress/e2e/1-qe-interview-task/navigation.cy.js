@@ -1,5 +1,5 @@
 describe('Navigation', () => {
-  it('should navigate to quick links', () => {
+  it('should navigate from home to greetings and back to home links', () => {
     cy.visit('/');
 
     cy.contains('Welcome').should('exist');

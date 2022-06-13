@@ -1,10 +1,12 @@
 const { defineConfig } = require('cypress')
-const { devServer } = require("@cypress/react/plugins/react-scripts");
 
 module.exports = defineConfig({
   projectId: "qe_interview_task",
   component: {
-    devServer,
+    devServer: {
+      framework: 'create-react-app',
+      bundler: 'webpack',
+    },
     specPattern: "src/**/*.cy.{js,jsx}",
     supportFile: "cypress/support/component.js",
     // setupNodeEvents(on, config) {

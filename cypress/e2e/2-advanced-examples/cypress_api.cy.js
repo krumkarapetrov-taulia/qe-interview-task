@@ -90,12 +90,12 @@ context('Cypress.config()', () => {
     let myConfig = Cypress.config()
 
     expect(myConfig).to.have.property('animationDistanceThreshold', 5)
-    expect(myConfig).to.have.property('baseUrl', null)
+    expect(myConfig).to.have.property('baseUrl', 'http://localhost:7401')
     expect(myConfig).to.have.property('defaultCommandTimeout', 4000)
     expect(myConfig).to.have.property('requestTimeout', 5000)
     expect(myConfig).to.have.property('responseTimeout', 30000)
-    expect(myConfig).to.have.property('viewportHeight', 660)
-    expect(myConfig).to.have.property('viewportWidth', 1000)
+    expect(myConfig).to.have.property('viewportHeight', 1000)
+    expect(myConfig).to.have.property('viewportWidth', 1280)
     expect(myConfig).to.have.property('pageLoadTimeout', 60000)
     expect(myConfig).to.have.property('waitForAnimations', true)
 
