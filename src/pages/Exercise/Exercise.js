@@ -2,9 +2,9 @@
 /* eslint no-undef: "warn" */
 import React, { useState } from 'react';
 import { Button, Field, FieldLabel, ListView, Modal, Text } from 'taulia-ui';
-import './Excercise.scss';
+import './Exercise.scss';
 
-function Excercise() {
+function Exercise() {
   const INITIAL_STATE = {
     name: '',
     email: '',
@@ -55,7 +55,7 @@ function Excercise() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="excercise">
+    <div className="exercise">
       <div className="employee">
         <form onSubmit={onSubmit}>
           <Field>
@@ -142,4 +142,4 @@ function Excercise() {
   );
 }
 
-export default Excercise;
+export default Exercise;

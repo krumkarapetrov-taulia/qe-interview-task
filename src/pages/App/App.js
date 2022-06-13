@@ -21,7 +21,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/hello">Translated Greetings</Link>
         <Link to="/toasts-n-modals">Toasts n Modals</Link>
-        <Link to="/excercise">Excercise</Link>
+        <Link to="/exercise">Exercise</Link>
         <Link to="/omg-why-is-this-even-a-url-this-is-totally-wrong">
           Bad link
         </Link>

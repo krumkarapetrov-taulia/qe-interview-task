@@ -8,7 +8,7 @@ import UserSettingsProvider from './contexts/userSettingsProvider';
 import { App } from './pages/App';
 import { Dashboard } from './pages/Dashboard';
 import { HelloWorld } from './pages/HelloWorld';
-import { Excercise } from './pages/Excercise';
+import { Exercise } from './pages/Exercise';
 import { ToastsModals } from './pages/ToastsModals';
 import { NotFound } from './pages/NotFound';
 import TRANSLATIONS from './translations/translations';
@@ -38,7 +38,7 @@ root.render(
             path={CONSTANTS.TOASTS_MODALS_ENDPOINT}
             element={<ToastsModals />}
           />
-          <Route path={CONSTANTS.EXCERCISE} element={<Excercise />} />
+          <Route path={CONSTANTS.EXERCISE} element={<Exercise />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
