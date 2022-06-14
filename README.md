@@ -1,22 +1,12 @@
 # qe-interview-task
 Interview task for an QE position
 
-<div align="center">
-  <h1>Functional Tests</h1>
-  <p>Tests run in the browser powered by <a href="https://www.cypress.io/	">cypress</a>
-  </p>
-</div>
-
 ## Setup
 
 ##### Requirements:
 
-- [Node.js](https://nodejs.org) version >= 4.0.0
+- [Node.js](https://nodejs.org) version >= 14.0.0
 - [yarn](https://yarnpkg.com) version >= 1.0.0
-- Operating System
-  - macOS 10.9 and above (64-bit only)
-  - Linux Ubuntu 12.04 and above, Fedora 21 and Debian 8 (64-bit only)
-  - Windows 7 and above
 
 ##### Clone the repository:
 
