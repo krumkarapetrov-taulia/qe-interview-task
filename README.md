@@ -49,15 +49,6 @@ $ yarn cy:run
 $ yarn cy:open
 ```
 
-##### Run the cypress tests with different env files (i.e. integration, pde, local):
-
-```sh
-$ yarn cy:run --env configFile=<env file name>
-
-$ yarn cy:open --env configFile=integration
-
-```
-
 ## Technologies
 
 - [@testing-library/cypress](https://github.com/testing-library/cypress-testing-library) - Custom cypress commands
