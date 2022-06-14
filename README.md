@@ -3,7 +3,7 @@ Interview task for an QE position
 
 <div align="center">
   <h1>Functional Tests</h1>
-  <p>Tests run in the browser powered by 	  <a href="https://www.cypress.io/	">cypress</a>
+  <p>Tests run in the browser powered by <a href="https://www.cypress.io/	">cypress</a>
   </p>
 </div>
 
@@ -21,7 +21,7 @@ Interview task for an QE position
 ##### Clone the repository:
 
 ```sh
-$ git@github.com:taulia/ui-functional-tests.git
+$ git@github.com:krasimiryanchev-taulia/qe-interview-task.git
 ```
 
 ##### Install dependencies:
