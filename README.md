@@ -46,3 +46,4 @@ $ yarn cy:open
 - [eslint](https://eslint.org/) - JS linter
 - [faker](https://github.com/Marak/Faker.js) - Fake data generator
 - [prettier](https://github.com/prettier/prettier) - Code formatter
+- [react](https://reactjs.org/) - Javascript Library

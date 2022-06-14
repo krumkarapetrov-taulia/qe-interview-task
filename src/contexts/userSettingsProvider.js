@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { UserSettingsContext } from 'taulia-ui';
 
 function UserSettingsProvider({ children }) {
-  const [name, setName] = useState('Big Jared');
+  const [name, setName] = useState('Jane Doe');
   const memoName = useMemo(
     () => ({
       name,
