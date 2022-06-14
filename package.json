@@ -43,7 +43,7 @@
     "lint": "./node_modules/.bin/eslint . --ext .js",
     "postbuild": "postcss --use postcss-custom-properties --replace build/**/*.css",
     "report": "cd coverage/lcov-report && open index.html",
-    "start": "BROWSER=none PORT=7401 WDS_SOCKET_PORT=7401 react-scripts start",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "testOnce": "CI=true react-scripts test",
     "cy:open": "cypress open",

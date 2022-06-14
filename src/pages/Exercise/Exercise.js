@@ -103,6 +103,7 @@ function Exercise() {
         </form>
       </div>
       <ListView
+        showColumnConfig={false}
         data={employeeList}
         columns={[
           { key: 'name', label: 'Name', type: 'TEXT' },

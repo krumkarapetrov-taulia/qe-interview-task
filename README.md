@@ -30,6 +30,13 @@ $ git@github.com:krasimiryanchev-taulia/qe-interview-task.git
 $ yarn
 ```
 
+##### Run the app:
+
+```sh
+$ yarn start
+```
+You can now view qe-interview-task in the browser: http://localhost:3000
+
 ##### Run the cypress tests in headerlessly:
 
 ```sh

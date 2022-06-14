@@ -11,7 +11,7 @@ module.exports = defineConfig({
     supportFile: "cypress/support/component.js",
   },
   e2e: {
-    baseUrl: 'http://localhost:7401',
+    baseUrl: 'http://localhost:3000',
     viewportHeight: 1000,
     viewportWidth: 1280,
   }
