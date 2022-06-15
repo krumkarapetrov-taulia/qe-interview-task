@@ -9,7 +9,7 @@ import {
 } from 'taulia-ui';
 
 function Dashboard() {
-  const { setName } = useContext(UserSettingsContext);
+  const { name, setName } = useContext(UserSettingsContext);
 
   const INITIAL_STATE = {
     firstName: '',
@@ -25,10 +25,10 @@ function Dashboard() {
   const [state, setState] = useReducer(reducer, INITIAL_STATE);
 
   const handleInputChange = e => {
-    const { name, value } = e.target;
+    const { name: key, value } = e.target;
     setState({
-      [name]: value,
-      errors: { ...state.errors, [name]: '' },
+      [key]: value,
+      errors: { ...state.errors, [key]: '' },
     });
   };
 
@@ -39,19 +39,19 @@ function Dashboard() {
   };
 
   const validateOnBlur = event => {
-    const { value, name } = event.target;
+    const { name: key, value } = event.target;
     let error;
     if (!value.length) {
       error = 'required';
     }
-    setState({ errors: { ...state.errors, [name]: error } });
+    setState({ errors: { ...state.errors, [key]: error } });
   };
 
   const isDisabled = !state.firstName.length || !state.lastName.length;
 
   return (
     <form onSubmit={onSubmit}>
-      <p>Welcome to the Taulia template app! What is your name?</p>
+      <p>Welcome to the Taulia template app, {name}!</p>
       <Field validationState={state.errors.firstName ? 'error' : null}>
         <FieldLabel htmlFor="first-name">First Name</FieldLabel>
         <Text
