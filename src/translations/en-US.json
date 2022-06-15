@@ -4,6 +4,7 @@
     "title": "Hello world!"
   },
   "notFound": {
+    "back": "Back",
     "backHome": "Back to Home",
     "cantFind": "We can't seem to find the page you're looking for.",
     "error": "Error (404)"

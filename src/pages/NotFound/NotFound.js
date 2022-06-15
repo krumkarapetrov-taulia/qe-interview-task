@@ -6,9 +6,12 @@ import { useNavigate } from 'react-router-dom';
 function NotFound() {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const handleSubmit = e => {
+  const handleBack = e => {
     e.preventDefault();
-
+    navigate(-1);
+  };
+  const handleBackToHome = e => {
+    e.preventDefault();
     navigate('/');
   };
 
@@ -17,7 +20,10 @@ function NotFound() {
       <img height="400" src="https://http.cat/404" alt={t('notFound.error')} />
       <h2>{t('notFound.error')}</h2>
       <p>{t('notFound.cantFind')}</p>
-      <Button onClick={handleSubmit} theme="primary">
+      <Button onClick={handleBack} theme="primary">
+        {t('notFound.back')}
+      </Button>
+      <Button onClick={handleBackToHome} theme="light">
         {t('notFound.backHome')}
       </Button>
     </div>
