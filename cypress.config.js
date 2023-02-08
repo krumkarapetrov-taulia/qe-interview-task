@@ -7,12 +7,11 @@ module.exports = defineConfig({
       framework: 'create-react-app',
       bundler: 'webpack',
     },
-    specPattern: "src/**/*.cy.{js,jsx}",
-    supportFile: "cypress/support/component.js",
   },
   e2e: {
     baseUrl: 'http://localhost:3000',
     viewportHeight: 1000,
     viewportWidth: 1280,
+    supportFile: "cypress/support/component.js",
   }
 });
