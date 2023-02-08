@@ -103,6 +103,10 @@ dist
 # TernJS port file
 .tern-port
 
+# Intellij IDEA
+.idea
+
 # Cypress
 cypress/videos/
 cypress/screenshots/
+cypress/fixtures/example.json
