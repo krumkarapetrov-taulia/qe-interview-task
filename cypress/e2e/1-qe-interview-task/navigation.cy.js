@@ -11,7 +11,6 @@ describe('Navigation', () => {
   });
 
   it('should navigate through all available navigation options successfully', () => {
-
     cy.visit('/');
     cy.contains('Welcome').should('exist');
     cy.visit('/hello');
@@ -26,8 +25,5 @@ describe('Navigation', () => {
     cy.contains('Role').should('exist');
     cy.visit('/omg-why-is-this-even-a-url-this-is-totally-wrong');
     cy.get('h2').should('contain', 'Error (404)');
-
-
   });
-
 });
