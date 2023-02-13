@@ -25,7 +25,7 @@ $ yarn
 ```sh
 $ yarn start
 ```
-You can now view qe-interview-task in the browser: http://localhost:3000
+You can now view qe-interview-task in the browser:
 
 ##### Run the cypress tests in headerlessly:
 
